@@ -1,0 +1,1 @@
+The aim of cryptography is to convert any data in its original form, called the plaintext, into an incomprehensible form, known as the ciphertext.
