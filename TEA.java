@@ -6,7 +6,6 @@ public class TEA {
 	protected int sum;
 
 	protected int[] key; // key used to encrypt or decrypt
-
 	/*
 	 * Constructor:
 	 * 
