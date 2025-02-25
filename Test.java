@@ -15,9 +15,8 @@ public class Test {
 
 		int IV[] = { rand.nextInt(), rand.nextInt() }; // generating a random IV
 
-		/* Change the path if you install the image on different path */
-		FileInputStream fileIN = new FileInputStream("C:\\Users\\Prashant\\Desktop\\Study\\ACC\\Assignment\\TEA\\src\\files\\Hard disk.txt");
-		FileOutputStream fileOut = new FileOutputStream("C:\\Users\\Prashant\\Desktop\\Study\\ACC\\Assignment\\TEA\\src\\files\\CBCEncrypt.txt");
+		FileInputStream fileIN = new FileInputStream("C:\\Users\\path");
+		FileOutputStream fileOut = new FileOutputStream("C:\\Users\\path");
 
 		DataInputStream dataIn = new DataInputStream(fileIN);
 		DataOutputStream dataOut = new DataOutputStream(fileOut);
@@ -53,8 +52,8 @@ public class Test {
 		dataOut.close();
 
 		/* ~~~~~~~~~~~~~~~~~~~~~~~Decrypting the Image ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-		DataInputStream dataIn1 = new DataInputStream(new FileInputStream("C:\\Users\\Prashant\\Desktop\\Study\\ACC\\Assignment\\TEA\\src\\files\\CBCencrypt.txt"));
-		DataOutputStream dataOut1 = new DataOutputStream(new FileOutputStream("C:\\Users\\Prashant\\Desktop\\Study\\ACC\\Assignment\\TEA\\src\\files\\CBCdecrypt.txt"));
+		DataInputStream dataIn1 = new DataInputStream(new FileInputStream("C:\\Users\\path"));
+		DataOutputStream dataOut1 = new DataOutputStream(new FileOutputStream("C:\\Users\\path"));
 
 		int[] copyCipher = new int[2];
 		firstTime = true;
