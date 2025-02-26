@@ -9,8 +9,7 @@ public class TEA {
 	/*
 	 * Constructor:
 	 * 
-	 * @param: String keyAdd to assign the symmetric key, which will be used in
-	 * encryption and decryption
+	 * @param: String keyAdd to assign the symmetric key, which will be used in encryption and decryption
 	 */
 
 	public TEA() {
@@ -39,8 +38,7 @@ public class TEA {
 	}
 
 	/*
-	 * print the key added to TEA if there's no key added, a status message will be
-	 * generated
+	 * print the key added to TEA if there's no key added, a status message will be generated
 	 */
 	public void printKeys() {
 		if (key == null) {
